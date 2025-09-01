@@ -21,7 +21,7 @@ export const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-betting-primary-glow to-foreground bg-clip-text text-transparent">
           Outsmart the
           <br />
-          <span className="text-betting-primary">Reward.</span>
+          <span className="text-betting-primary">Odds.</span>
         </h1>
         
         {/* Subheading */}
