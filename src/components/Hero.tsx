@@ -26,7 +26,7 @@ export const Hero = () => {
         
         {/* Subheading */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed">
-          Experience the future of sports betting with personalized AI recommendations,
+          Experience the future of sports betting with GamePoint's personalized AI recommendations,
           <br />
           real-time odds calculation, and intelligent bet optimization.
         </p>

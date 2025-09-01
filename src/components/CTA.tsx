@@ -23,7 +23,7 @@ export const CTA = () => {
             </h2>
             
             <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-              Join thousands of smart bettors who trust our AI to make winning decisions.
+              Join thousands of smart bettors who trust GamePoint's AI to make winning decisions.
               Get started today and experience the future of sports betting.
             </p>
             
