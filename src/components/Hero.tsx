@@ -19,7 +19,7 @@ export const Hero = () => {
         
         {/* Main heading */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-betting-primary-glow to-foreground bg-clip-text text-transparent">
-          Turn Risk Into
+          Outsmar the
           <br />
           <span className="text-betting-primary">Reward.</span>
         </h1>
