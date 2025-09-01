@@ -26,7 +26,7 @@ export const Hero = () => {
         
         {/* Subheading */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed">
-          Make any bet you want with GamePoint’s AI. See the odds instantly and decide if the stakes are worth it.
+          Make any bet you want with GamePoint’s AI and beat the stakes.
           <br />
           <span className="text-betting-primary-glow font-medium">Think you can beat the AI? Game on</span>
         </p>
