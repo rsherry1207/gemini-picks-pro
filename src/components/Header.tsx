@@ -1,4 +1,4 @@
-import gamepointLogo from "@/assets/gamepoint-logo.png";
+import gamepointLogo from "@/assets/gamepoint-logo-new.png";
 
 export const Header = () => {
   return (

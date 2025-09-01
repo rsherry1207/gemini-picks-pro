@@ -19,27 +19,27 @@ export const Hero = () => {
         
         {/* Main heading */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-betting-primary-glow to-foreground bg-clip-text text-transparent">
-          Smart Bets.
+          Turn Risk Into
           <br />
-          <span className="text-betting-primary">AI Odds.</span>
+          <span className="text-betting-primary">Reward.</span>
         </h1>
         
         {/* Subheading */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed">
-          Experience the future of sports betting with GamePoint's personalized AI recommendations,
+          Let GamePoint's AI calculate the odds, evaluate every angle, and craft the perfect bet.
           <br />
-          real-time odds calculation, and intelligent bet optimization.
+          <span className="text-betting-primary-glow font-medium">Why guess when you can know?</span>
         </p>
         
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" variant="betting" className="text-lg px-8 py-6">
             <Zap className="w-5 h-5 mr-2" />
-            Get Started
+            Start Winning
           </Button>
           <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-betting-primary/30 hover:bg-betting-primary/10">
             <TrendingUp className="w-5 h-5 mr-2" />
-            View Demo
+            See AI in Action
           </Button>
         </div>
         
