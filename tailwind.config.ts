@@ -61,6 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				betting: {
+					primary: 'hsl(var(--betting-primary))',
+					'primary-glow': 'hsl(var(--betting-primary-glow))',
+					success: 'hsl(var(--betting-success))',
+					warning: 'hsl(var(--betting-warning))',
+					danger: 'hsl(var(--betting-danger))'
 				}
 			},
 			borderRadius: {
