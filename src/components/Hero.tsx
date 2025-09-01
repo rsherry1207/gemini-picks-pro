@@ -26,9 +26,9 @@ export const Hero = () => {
         
         {/* Subheading */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed">
-          Let GamePoint's AI calculate the odds, evaluate every angle, and craft the perfect bet.
+          Make any bet you want with GamePoint’s AI. See the odds instantly and decide if the stakes are worth it.
           <br />
-          <span className="text-betting-primary-glow font-medium">Why guess when you can know?</span>
+          <span className="text-betting-primary-glow font-medium">Think you can beat the AI? Game on</span>
         </p>
         
         {/* CTA buttons */}
