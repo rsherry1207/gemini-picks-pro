@@ -77,7 +77,7 @@ export const AIChat = () => {
     <>
       {/* AI Chat Window */}
       {isOpen && (
-        <Card className={`fixed bottom-20 left-6 right-6 ${userBets.length > 0 ? 'h-[500px]' : 'h-96'} flex flex-col gradient-card border-betting-primary/30 shadow-glow z-50`}>
+        <Card className={`fixed bottom-6 left-6 right-6 ${userBets.length > 0 ? 'h-[500px]' : 'h-96'} flex flex-col gradient-card border-betting-primary/30 shadow-glow z-50`}>
           {/* Header */}
           <div className="flex items-center justify-between p-4 border-b border-border">
             <div className="flex items-center gap-2">
@@ -184,14 +184,16 @@ export const AIChat = () => {
         </Card>
       )}
 
-      {/* AI Button */}
-      <Button
-        onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 w-14 h-14 rounded-full gradient-primary shadow-glow hover:shadow-glow transition-smooth z-40"
-        size="icon"
-      >
-        <Bot className="w-6 h-6" />
-      </Button>
+      {/* AI Button - Only show when chat is closed */}
+      {!isOpen && (
+        <Button
+          onClick={() => setIsOpen(!isOpen)}
+          className="fixed bottom-6 right-6 w-14 h-14 rounded-full gradient-primary shadow-glow hover:shadow-glow transition-smooth z-40"
+          size="icon"
+        >
+          <Bot className="w-6 h-6" />
+        </Button>
+      )}
     </>
   );
 };
