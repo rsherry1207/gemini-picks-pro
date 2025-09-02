@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { TrendingUp, Zap, Brain } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -33,13 +34,17 @@ export const Hero = () => {
         
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" variant="betting" className="text-lg px-8 py-6">
-            <Zap className="w-5 h-5 mr-2" />
-            Start Winning
+          <Button size="lg" variant="betting" className="text-lg px-8 py-6" asChild>
+            <Link to="/dashboard">
+              <Zap className="w-5 h-5 mr-2" />
+              Start Winning
+            </Link>
           </Button>
-          <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-betting-primary/30 hover:bg-betting-primary/10">
-            <TrendingUp className="w-5 h-5 mr-2" />
-            See AI in Action
+          <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-betting-primary/30 hover:bg-betting-primary/10" asChild>
+            <Link to="/dashboard">
+              <TrendingUp className="w-5 h-5 mr-2" />
+              See AI in Action
+            </Link>
           </Button>
         </div>
         
